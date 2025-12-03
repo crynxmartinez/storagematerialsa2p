@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Expert storage solutions for indoor, outdoor, warehouse, metal shop, RV, & boat storage. Secure your space today!">
+    <meta name="keywords" content="storage materials, indoor conversions, outdoor storage, contractor bay, metal fabrication, storage solutions">
+    <title>Storage Materials - Door and Metal Supplies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Consent Overlay -->
+    <div class="consent-overlay" id="consentOverlay">
+        <div class="consent-modal">
+            <div class="consent-content">
+                <h2>Welcome to Storage Materials</h2>
+                <p>Before continuing, please review and agree to our terms:</p>
+                
+                <div class="consent-section">
+                    <h3>Privacy Policy Summary</h3>
+                    <p><strong>Information We Collect:</strong> Name, email, phone number, and project details when you contact us.</p>
+                    <p><strong>How We Use It:</strong> To respond to inquiries, provide quotes, and communicate about our services.</p>
+                    <p><strong>Data Sharing:</strong> We do not sell your data. We may share with trusted service providers and legal authorities when required.</p>
+                    <p><strong>Cookies:</strong> We use cookies and third-party tools to improve our services.</p>
+                    <p><strong>Opt-Out:</strong> Unsubscribe from marketing emails anytime. Contact <a href="mailto:info@storagematerials.com">info@storagematerials.com</a> for data requests.</p>
+                </div>
+
+                <div class="consent-section">
+                    <h3>Terms and Conditions Summary</h3>
+                    <p><strong>Use of Website:</strong> For lawful purposes only. You agree not to misuse our services.</p>
+                    <p><strong>Quotes:</strong> All quotes are estimates and subject to change based on project specifics.</p>
+                    <p><strong>Intellectual Property:</strong> All content is owned by Storage Materials.</p>
+                    <p><strong>Liability:</strong> We are not liable for indirect damages. Use our website at your own risk.</p>
+                </div>
+
+                <div class="consent-section">
+                    <h3>SMS Terms Summary</h3>
+                    <p><strong>Opt-In Required:</strong> SMS messages only sent with explicit consent.</p>
+                    <p><strong>Message Frequency:</strong> Varies based on your interactions.</p>
+                    <p><strong>Rates:</strong> Standard message and data rates may apply.</p>
+                    <p><strong>Opt-Out:</strong> Reply <strong>STOP</strong> to any message to unsubscribe.</p>
+                    <p><strong>Help:</strong> Reply <strong>HELP</strong> or call 888-968-1222.</p>
+                    <p><strong>Carriers:</strong> Major US carriers supported. Carriers not liable for delays.</p>
+                    <p><strong>Privacy:</strong> Your phone number will not be shared for marketing.</p>
+                </div>
+
+                <div class="consent-links">
+                    <a href="https://storagematerials.online/privacy-policy" target="_blank">Full Privacy Policy</a>
+                    <a href="https://storagematerials.online/terms-of-service" target="_blank">Full Terms of Service</a>
+                    <a href="https://storagematerials.online/sms-terms" target="_blank">Full SMS Terms</a>
+                </div>
+
+                <button class="btn btn-primary" id="consentAgreeBtn">I Agree</button>
+                <p>By clicking "I Agree", you acknowledge that you have read and agree to our Privacy Policy, Terms and Conditions, and SMS Terms.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="https://storagematerials.online/home" class="logo">STORAGE<span>MATERIALS</span></a>
+                <nav class="nav">
+                    <a href="https://storagematerials.online/home" class="nav-link active">Home</a>
+                    <a href="https://storagematerials.online/about" class="nav-link">About Us</a>
+                    <a href="https://storagematerials.online/contact" class="nav-link">Contact Us</a>
+                </nav>
+                <div class="header-cta">
+                    <a href="tel:888-968-1222" class="header-contact">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                        888-968-1222
+                    </a>
+                    <a href="https://storagematerials.online/contact" class="btn btn-primary">Free Quote</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+        <a href="https://storagematerials.online/home" class="mobile-nav-link">Home</a>
+        <a href="https://storagematerials.online/about" class="mobile-nav-link">About Us</a>
+        <a href="https://storagematerials.online/contact" class="mobile-nav-link">Contact Us</a>
+        <a href="https://storagematerials.online/contact" class="btn btn-primary" style="margin-top: 24px; width: 100%;">Free Quote</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>40+ Years Combined Experience</span>
+                </div>
+                <h1>Door and <span>Metal Supplies</span></h1>
+                <p class="hero-subtitle">We provide comprehensive plan designs and construction services for your self storage needs. Transform your space with expert solutions tailored just for you.</p>
+                <div class="hero-buttons">
+                    <a href="https://storagematerials.online/contact" class="btn btn-primary">Get a Free Quote</a>
+                    <a href="https://storagematerials.online/about" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">40+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Our Services</span>
+                <h2>Comprehensive Storage Solutions</h2>
+                <p>From indoor conversions to outdoor storage, we provide end-to-end solutions for all your storage needs.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                    </div>
+                    <h3>Indoor Conversions</h3>
+                    <p>Transform existing spaces into efficient storage facilities with our custom indoor conversion solutions.</p>
+                    <a href="https://storagematerials.online/contact" class="service-link">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+                    </div>
+                    <h3>Outdoor Storage</h3>
+                    <p>Secure, weather-resistant outdoor storage solutions tailored to your specific needs.</p>
+                    <a href="https://storagematerials.online/contact" class="service-link">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                    </div>
+                    <h3>Contractor Bay</h3>
+                    <p>Custom-designed contractor bays with the perfect combination of space and functionality.</p>
+                    <a href="https://storagematerials.online/contact" class="service-link">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-home">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-badge">Why Choose Us</span>
+                    <h2>Building Storage Solutions That Last</h2>
+                    <p>With over 40 years of combined experience, Storage Materials has been at the forefront of the storage industry. We specialize in metal fabrication, doors, lighting, concrete work, and comprehensive storage solutions.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Metal Fabrication</span>
+                        </div>
+                        <div class="about-feature">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Custom Doors</span>
+                        </div>
+                        <div class="about-feature">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>LED Lighting</span>
+                        </div>
+                        <div class="about-feature">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            <span>Concrete Work</span>
+                        </div>
+                    </div>
+                    <a href="https://storagematerials.online/contact" class="btn btn-primary">Get Started Today</a>
+                </div>
+                <div class="about-image">
+                    <div class="about-image-main">
+                        <div class="about-image-placeholder">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                            <span>Storage Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promise Section -->
+    <section class="promise">
+        <div class="container">
+            <div class="promise-content">
+                <h2>Our Promise to You</h2>
+                <p>We are committed to delivering exceptional quality and service on every project. From initial consultation to final installation, we ensure your complete satisfaction.</p>
+                <div class="promise-grid">
+                    <div class="promise-item">
+                        <div class="promise-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        </div>
+                        <h3>Quality Guaranteed</h3>
+                        <p>Premium materials and expert craftsmanship on every project.</p>
+                    </div>
+                    <div class="promise-item">
+                        <div class="promise-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3>On-Time Delivery</h3>
+                        <p>We respect your timeline and deliver projects on schedule.</p>
+                    </div>
+                    <div class="promise-item">
+                        <div class="promise-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                        </div>
+                        <h3>Expert Team</h3>
+                        <p>Experienced professionals dedicated to your success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Let Us Make Your Project a Reality</h2>
+                <p>Ready to transform your storage space? Contact us today for a free quote.</p>
+                <a href="https://storagematerials.online/contact" class="btn btn-primary">Get a Free Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="https://storagematerials.online/home" class="logo">STORAGE<span>MATERIALS</span></a>
+                    <p>40 years of combined experience in metal fabrication, doors, lighting, concrete work, and storage solutions.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/people/Storage-Materials/61563739509262/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="mailto:info@storagematerials.com" aria-label="Email">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Useful Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://storagematerials.online/home">Home</a></li>
+                        <li><a href="https://storagematerials.online/about">About Us</a></li>
+                        <li><a href="https://storagematerials.online/contact">Contact Us</a></li>
+                        <li><a href="https://storagematerials.online/contact">Free Quote</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://storagematerials.online/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="https://storagematerials.online/terms-of-service">Terms of Service</a></li>
+                        <li><a href="https://storagematerials.online/sms-terms">SMS Terms</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                        <span>1851 Madison Avenue #300,<br>Council Bluffs, IA 51503</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        <span>Mon-Sun: 6am – 6pm</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                        <span>712-GO-METAL<br>888-968-1222</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                        <a href="mailto:info@storagematerials.com">info@storagematerials.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Storage Materials. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="https://storagematerials.online/privacy-policy">Privacy Policy</a>
+                    <a href="https://storagematerials.online/terms-of-service">Terms of Service</a>
+                    <a href="https://storagematerials.online/sms-terms">SMS Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
